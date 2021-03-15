@@ -20,3 +20,40 @@ body {
 h1 {
     letter-spacing: 3px;
 }
+
+.poke-container{
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.pokemon{
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.pokemon .img-container{
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%; 
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+}
+
+.pokemon .img-container img {
+    margin-top: 20px;
+    max-width: 90%;
+}
+
+.pokemon .info {
+    margin-top: 20px;
+}
+
+.pokemon .number {
+    background-color: #fff;
+}
